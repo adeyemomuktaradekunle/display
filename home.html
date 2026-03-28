@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>CSS2 <code> display </code> play ground </h1>
+        <p>Change the class name  in this html file and watch what happens in the browser</p>
+        <p>Try the values: <strong>Block</strong>, <strong>Inline</strong>, <strong>inline-block</strong>, <strong>Flex</strong>, <strong>Grid</strong></p>
+    </header>
+    <section class="container">
+        <h2>1. display: block</h2>
+        <div class="explaination">
+            Each items takes a full width and start a new line
+
+        </div>
+        <div class="display-block">
+            <div class="item">Box1</div>
+            <div class="item">Box2</div>
+            <div class="item">Box3</div>
+            <div class="item">Box4</div>
+            <div class="item">Box5</div>
+
+        </div>
+
+    </section>
+    <section class="container">
+        <h2>2. display: Inline</h2>
+        <div class="explaination">
+            Items stays in one line like a text. Width and height are ignored
+
+        </div>
+        <div class="display-inline">
+            <span class="item">A</span>
+            <span class="item">B</span>
+            <span class="item">C</span>
+            <span class="item">D is longer</span>
+            <span class="item">E</span>
+
+        </div>
+        
+    </section>
+    <section class="container">
+        <h2>3. display: inline-block</h2>
+        <div class="explaination">
+            Behaves like inline but respect Width Height Margin Padding-perfect for buttons and cards
+            <div class="display-inline-block">
+                <div class="item">Card 1</div>
+                <div class="item">Card 2</div>
+                <div class="item">Card 3</div>
+                <div class="item">Card 4</div>
+
+            </div>
+
+    </section>
+    <section class="container">
+        <h2>4. display: flex</h2>
+        <div class="explaination">
+            Amazing for rose navigation bars and centering content
+
+        </div>
+        <div class="display-flex">
+            <div class="item">one</div>
+            <div class="item">two</div>
+            <div class="item">three</div>
+            <div class="item">four</div>
+            <div class="item">five</div>
+
+        </div>
+
+    </section>
+    <section class="container">
+        <h2>5. display: grid</h2>
+        <div class="explaination">
+            Perfect for 2d layout like galleries or page sections 
+
+        </div>
+        <div class="display-grid">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+            <div class="item">E</div>
+            <div class="item full-width">Full width item</div>
+
+        </div>
+
+    </section>
+    <footer>
+        <h1>designed by adekunle</h1>
+    </footer>
+</body>
+</html>
